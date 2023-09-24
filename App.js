@@ -13,9 +13,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   map: {
-    width: '100%',
-    height: '100%',
+    width: '90%',
+    height: '40%',
   },
 });
